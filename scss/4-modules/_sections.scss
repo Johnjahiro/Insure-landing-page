@@ -1,5 +1,6 @@
 .hero {        
     text-align: center;
+    display: none;
 
     &__image {         
         height: 450px;      
@@ -34,11 +35,40 @@
         color: $veryLightGray;
         font-size: 2.8em;         
         z-index: 40;
+
+        &--color {
+            color: #000;
+            font-size: 3em;
+            font-weight: normal;
+        }
     }
 
     &__parrafo {
         color: $veryLightGray;
         line-height: 1.7em;
         padding-bottom: 2.5em;
+    }
+}
+
+.we-are {
+    text-align: center;
+    border: 1px solid red;
+
+    &__grid {
+        display: grid;
+        grid-row-gap: 4em;
+    }
+
+    &__item {
+        border: 1px solid blue;
+    }
+
+    &__title {
+        font-size: 1.8em;
+        font-weight: normal;
+    }
+
+    &__parrafo {
+        color: $darkGrayishViolet;
     }
 }

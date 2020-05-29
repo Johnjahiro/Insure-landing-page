@@ -336,7 +336,8 @@ ul {
   padding: 0 1.5em; }
 
 .hero {
-  text-align: center; }
+  text-align: center;
+  display: none; }
   .hero__image {
     height: 450px;
     background: url("./../assets/images/image-intro-mobile.jpg");
@@ -364,10 +365,28 @@ ul {
     color: #fafafa;
     font-size: 2.8em;
     z-index: 40; }
+    .hero__title--color {
+      color: #000;
+      font-size: 3em;
+      font-weight: normal; }
   .hero__parrafo {
     color: #fafafa;
     line-height: 1.7em;
     padding-bottom: 2.5em; }
+
+.we-are {
+  text-align: center;
+  border: 1px solid red; }
+  .we-are__grid {
+    display: grid;
+    grid-row-gap: 4em; }
+  .we-are__item {
+    border: 1px solid blue; }
+  .we-are__title {
+    font-size: 1.8em;
+    font-weight: normal; }
+  .we-are__parrafo {
+    color: #837d87; }
 
 .btn-menu {
   width: 40px;
