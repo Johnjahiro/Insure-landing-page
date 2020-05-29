@@ -311,10 +311,10 @@ template {
   padding: 0; }
 
 body {
-  font-family: 'Karla-Regular'; }
+  font-family: 'Karla', sans-serif; }
 
 h1, h2, h3 {
-  font-family: 'DMSerifDisplay-Regular'; }
+  font-family: 'DM Serif Display', serif; }
 
 a {
   text-decoration: none;
@@ -323,15 +323,6 @@ a {
 ul {
   list-style: none; }
 
-@font-face {
-  font-family: 'DMSerifDisplay-Regular';
-  src: url("../../fonts/DMSerifDisplay-Regular.ttf"); }
-@font-face {
-  font-family: 'Karla-Regular';
-  src: url("../fonts/Karla-Regular.ttf"); }
-@font-face {
-  font-family: 'Karla-Bold';
-  src: url("../fonts/Karla-Bold.ttf"); }
 .header {
   width: 100%;
   padding: 1em 0; }
@@ -348,7 +339,7 @@ ul {
   text-align: center; }
   .hero__image {
     height: 450px;
-    background: url("../../assets/images/image-intro-mobile.jpg");
+    background: url("./../assets/images/image-intro-mobile.jpg");
     background-size: cover;
     margin-left: -1.5em;
     margin-right: -1.5em; }
