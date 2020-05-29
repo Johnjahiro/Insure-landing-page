@@ -313,6 +313,9 @@ template {
 body {
   font-family: 'Karla-Regular'; }
 
+h1, h2, h3 {
+  font-family: 'DMSerifDisplay-Regular'; }
+
 a {
   text-decoration: none;
   color: inherit; }
@@ -325,9 +328,69 @@ ul {
   src: url("../../fonts/DMSerifDisplay-Regular.ttf"); }
 @font-face {
   font-family: 'Karla-Regular';
-  src: url("../../fonts/Karla-Regular.ttf"); }
+  src: url("../fonts/Karla-Regular.ttf"); }
 @font-face {
   font-family: 'Karla-Bold';
-  src: url("../../fonts/Karla-Bold.ttf"); }
+  src: url("../fonts/Karla-Bold.ttf"); }
+.header {
+  width: 100%;
+  padding: 1em 0; }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.wrapper {
+  width: 100%;
+  padding: 0 1.5em; }
+
+.hero {
+  text-align: center; }
+  .hero__image {
+    height: 450px;
+    background: url("../../assets/images/image-intro-mobile.jpg");
+    background-size: cover;
+    margin-left: -1.5em;
+    margin-right: -1.5em; }
+  .hero__description {
+    position: relative;
+    height: 500px;
+    width: calc(100% + 3em);
+    padding: 5.5em 1.5em 4em 1.5em;
+    background: #2d2640;
+    margin-left: -1.5em; }
+  .hero__line-1 {
+    position: absolute;
+    width: 167px;
+    height: 165px;
+    top: 0;
+    left: 0;
+    background: url("../../assets/images/bg-pattern-intro-left-mobile.svg");
+    z-index: 0; }
+  .hero__title {
+    margin: 0;
+    padding-bottom: .3em;
+    color: #fafafa;
+    font-size: 2.8em;
+    z-index: 40; }
+  .hero__parrafo {
+    color: #fafafa;
+    line-height: 1.7em;
+    padding-bottom: 2.5em; }
+
+.btn-menu {
+  width: 40px;
+  height: 40px;
+  background: url("../assets/images/icon-hamburger.svg") no-repeat center; }
+
+.btn-hero {
+  width: 150px;
+  padding: .7em 1.8em;
+  letter-spacing: .1em;
+  font-size: .9em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #fafafa;
+  color: #fafafa; }
 
 /*# sourceMappingURL=main.css.map */

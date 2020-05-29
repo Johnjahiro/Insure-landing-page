@@ -1,0 +1,17 @@
+.btn-menu {    
+    width: 40px;
+    height: 40px;
+    background: url("../assets/images/icon-hamburger.svg") no-repeat center;
+}
+
+.btn-hero {
+    width: 150px;    
+    padding: .7em 1.8em;
+    letter-spacing: .1em;
+    font-size: .9em;
+    font-weight: 700;   
+    text-transform: uppercase;      
+    border: 2px solid $veryLightGray;
+    color: $veryLightGray;
+}
+

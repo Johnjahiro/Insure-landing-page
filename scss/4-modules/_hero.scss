@@ -1,0 +1,44 @@
+.hero {        
+    text-align: center;
+
+    &__image {         
+        height: 450px;      
+        background: url("../../assets/images/image-intro-mobile.jpg");
+        background-size: cover;
+        margin-left: -$wrapperSpace;
+        margin-right: -$wrapperSpace;
+    }
+
+    &__description {
+        position: relative;
+        height: 500px;        
+        width: calc(100% + 3em);                
+        padding: 5.5em $wrapperSpace 4em $wrapperSpace;
+        background: $darkViolet;
+        margin-left: -$wrapperSpace;
+    }
+    
+    &__line-1 {        
+        position: absolute;
+        width: 167px;
+        height: 165px;
+        top: 0;        
+        left: 0;
+        background: url("../../assets/images/bg-pattern-intro-left-mobile.svg");        
+        z-index: 0;
+    }
+
+    &__title {        
+        margin: 0;
+        padding-bottom: .3em;
+        color: $veryLightGray;
+        font-size: 2.8em;         
+        z-index: 40;
+    }
+
+    &__parrafo {
+        color: $veryLightGray;
+        line-height: 1.7em;
+        padding-bottom: 2.5em;
+    }
+}
